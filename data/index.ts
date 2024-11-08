@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building Saas Podcast Platform",
+    title: "Currently building MERN Dashboard App",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -80,19 +80,27 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Discord Clone",
-    des: "A real-time messaging platform with support for text, audio, and video calls, complete with server creation, member management, and attachment handling.",
-    img: "/discord.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
-    link: "https://github.com/Arnab-pixel/Team-Chat.git",
+    title: "XORA",
+    des: "Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    img: "/XORA.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
+    link: "https://xora-saas-beta.vercel.app/",
   },
   {
     id: 3,
     title: "An Authentication App",
     des: "A robust authentication system built using Next.js and NextAuth.js, designed to securely handle user sign-ins, sessions, and access control. It supports multiple OAuth providers (like Google, GitHub, Facebook), email-based login, and credentials-based authentication.",
     img: "/auth.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://next-auth-six-mocha.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Discord Clone",
+    des: "A real-time messaging platform with support for text, audio, and video calls, complete with server creation, member management, and attachment handling.",
+    img: "/discord.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://github.com/Arnab-pixel/Team-Chat.git",
   },
 ];
 
