@@ -88,19 +88,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "An Authentication App",
-    des: "A robust authentication system built using Next.js and NextAuth.js, designed to securely handle user sign-ins, sessions, and access control. It supports multiple OAuth providers (like Google, GitHub, Facebook), email-based login, and credentials-based authentication.",
-    img: "/auth.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://next-auth-six-mocha.vercel.app/",
-  },
-  {
-    id: 4,
     title: "Discord Clone",
     des: "A real-time messaging platform with support for text, audio, and video calls, complete with server creation, member management, and attachment handling.",
     img: "/discord.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://github.com/Arnab-pixel/Team-Chat.git",
+  },
+  {
+    id: 4,
+    title: "Storage and File Sharing Platform",
+    des: "A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.",
+    img: "/store_it.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "app.svg"],
+    link: "https://store-it-plum.vercel.app/",
   },
 ];
 
